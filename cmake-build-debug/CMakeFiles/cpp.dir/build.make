@@ -57,38 +57,38 @@ include CMakeFiles/cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp.dir/flags.make
 
-CMakeFiles/cpp.dir/main.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/main.cpp.o -c /mnt/sdb1/Documents/Projects/BISHAL/cpp/main.cpp
+CMakeFiles/cpp.dir/learning.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/learning.cpp.o: ../learning.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/learning.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/learning.cpp.o -c /mnt/sdb1/Documents/Projects/BISHAL/cpp/learning.cpp
 
-CMakeFiles/cpp.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/sdb1/Documents/Projects/BISHAL/cpp/main.cpp > CMakeFiles/cpp.dir/main.cpp.i
+CMakeFiles/cpp.dir/learning.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/learning.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/sdb1/Documents/Projects/BISHAL/cpp/learning.cpp > CMakeFiles/cpp.dir/learning.cpp.i
 
-CMakeFiles/cpp.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/sdb1/Documents/Projects/BISHAL/cpp/main.cpp -o CMakeFiles/cpp.dir/main.cpp.s
+CMakeFiles/cpp.dir/learning.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/learning.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/sdb1/Documents/Projects/BISHAL/cpp/learning.cpp -o CMakeFiles/cpp.dir/learning.cpp.s
 
-CMakeFiles/cpp.dir/main.cpp.o.requires:
+CMakeFiles/cpp.dir/learning.cpp.o.requires:
 
-.PHONY : CMakeFiles/cpp.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/cpp.dir/learning.cpp.o.requires
 
-CMakeFiles/cpp.dir/main.cpp.o.provides: CMakeFiles/cpp.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/cpp.dir/main.cpp.o.provides
+CMakeFiles/cpp.dir/learning.cpp.o.provides: CMakeFiles/cpp.dir/learning.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/learning.cpp.o.provides.build
+.PHONY : CMakeFiles/cpp.dir/learning.cpp.o.provides
 
-CMakeFiles/cpp.dir/main.cpp.o.provides.build: CMakeFiles/cpp.dir/main.cpp.o
+CMakeFiles/cpp.dir/learning.cpp.o.provides.build: CMakeFiles/cpp.dir/learning.cpp.o
 
 
 # Object files for target cpp
 cpp_OBJECTS = \
-"CMakeFiles/cpp.dir/main.cpp.o"
+"CMakeFiles/cpp.dir/learning.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
 
-cpp: CMakeFiles/cpp.dir/main.cpp.o
+cpp: CMakeFiles/cpp.dir/learning.cpp.o
 cpp: CMakeFiles/cpp.dir/build.make
 cpp: CMakeFiles/cpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp"
@@ -99,7 +99,7 @@ CMakeFiles/cpp.dir/build: cpp
 
 .PHONY : CMakeFiles/cpp.dir/build
 
-CMakeFiles/cpp.dir/requires: CMakeFiles/cpp.dir/main.cpp.o.requires
+CMakeFiles/cpp.dir/requires: CMakeFiles/cpp.dir/learning.cpp.o.requires
 
 .PHONY : CMakeFiles/cpp.dir/requires
 

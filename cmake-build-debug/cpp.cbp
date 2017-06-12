@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/sdb1/Documents/Projects/BISHAL/cpp/main.cpp">
+		<Unit filename="/mnt/sdb1/Documents/Projects/BISHAL/cpp/learning.cpp">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/mnt/sdb1/Documents/Projects/BISHAL/cpp/CMakeLists.txt">
