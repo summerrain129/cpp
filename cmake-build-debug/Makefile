@@ -123,6 +123,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
+BasicGui.o: BasicGui.cpp.o
+
+.PHONY : BasicGui.o
+
+# target to build an object file
+BasicGui.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/BasicGui.cpp.o
+.PHONY : BasicGui.cpp.o
+
+BasicGui.i: BasicGui.cpp.i
+
+.PHONY : BasicGui.i
+
+# target to preprocess a source file
+BasicGui.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/BasicGui.cpp.i
+.PHONY : BasicGui.cpp.i
+
+BasicGui.s: BasicGui.cpp.s
+
+.PHONY : BasicGui.s
+
+# target to generate assembly for a file
+BasicGui.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/BasicGui.cpp.s
+.PHONY : BasicGui.cpp.s
+
 learning.o: learning.cpp.o
 
 .PHONY : learning.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
+	@echo "... BasicGui.o"
+	@echo "... BasicGui.i"
+	@echo "... BasicGui.s"
 	@echo "... learning.o"
 	@echo "... learning.i"
 	@echo "... learning.s"

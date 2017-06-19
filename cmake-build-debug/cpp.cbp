@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/sdb1/Documents/Projects/BISHAL/cpp/BasicGui.cpp">
+			<Option target="cpp"/>
+		</Unit>
 		<Unit filename="/mnt/sdb1/Documents/Projects/BISHAL/cpp/learning.cpp">
 			<Option target="cpp"/>
 		</Unit>

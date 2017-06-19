@@ -3,5 +3,5 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES learning.cpp)
+set(SOURCE_FILES learning.cpp BasicGui.cpp)
 add_executable(cpp ${SOURCE_FILES})
