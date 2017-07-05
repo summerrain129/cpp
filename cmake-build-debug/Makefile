@@ -123,59 +123,113 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-BasicGui.o: BasicGui.cpp.o
+BishalCPP/bishal.o: BishalCPP/bishal.cpp.o
 
-.PHONY : BasicGui.o
-
-# target to build an object file
-BasicGui.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/BasicGui.cpp.o
-.PHONY : BasicGui.cpp.o
-
-BasicGui.i: BasicGui.cpp.i
-
-.PHONY : BasicGui.i
-
-# target to preprocess a source file
-BasicGui.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/BasicGui.cpp.i
-.PHONY : BasicGui.cpp.i
-
-BasicGui.s: BasicGui.cpp.s
-
-.PHONY : BasicGui.s
-
-# target to generate assembly for a file
-BasicGui.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/BasicGui.cpp.s
-.PHONY : BasicGui.cpp.s
-
-learning.o: learning.cpp.o
-
-.PHONY : learning.o
+.PHONY : BishalCPP/bishal.o
 
 # target to build an object file
-learning.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/learning.cpp.o
-.PHONY : learning.cpp.o
+BishalCPP/bishal.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o
+.PHONY : BishalCPP/bishal.cpp.o
 
-learning.i: learning.cpp.i
+BishalCPP/bishal.i: BishalCPP/bishal.cpp.i
 
-.PHONY : learning.i
+.PHONY : BishalCPP/bishal.i
 
 # target to preprocess a source file
-learning.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/learning.cpp.i
-.PHONY : learning.cpp.i
+BishalCPP/bishal.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.i
+.PHONY : BishalCPP/bishal.cpp.i
 
-learning.s: learning.cpp.s
+BishalCPP/bishal.s: BishalCPP/bishal.cpp.s
 
-.PHONY : learning.s
+.PHONY : BishalCPP/bishal.s
 
 # target to generate assembly for a file
-learning.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/learning.cpp.s
-.PHONY : learning.cpp.s
+BishalCPP/bishal.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.s
+.PHONY : BishalCPP/bishal.cpp.s
+
+GUIFun/BasicGui.o: GUIFun/BasicGui.cpp.o
+
+.PHONY : GUIFun/BasicGui.o
+
+# target to build an object file
+GUIFun/BasicGui.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o
+.PHONY : GUIFun/BasicGui.cpp.o
+
+GUIFun/BasicGui.i: GUIFun/BasicGui.cpp.i
+
+.PHONY : GUIFun/BasicGui.i
+
+# target to preprocess a source file
+GUIFun/BasicGui.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.i
+.PHONY : GUIFun/BasicGui.cpp.i
+
+GUIFun/BasicGui.s: GUIFun/BasicGui.cpp.s
+
+.PHONY : GUIFun/BasicGui.s
+
+# target to generate assembly for a file
+GUIFun/BasicGui.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.s
+.PHONY : GUIFun/BasicGui.cpp.s
+
+Learning/learning.o: Learning/learning.cpp.o
+
+.PHONY : Learning/learning.o
+
+# target to build an object file
+Learning/learning.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Learning/learning.cpp.o
+.PHONY : Learning/learning.cpp.o
+
+Learning/learning.i: Learning/learning.cpp.i
+
+.PHONY : Learning/learning.i
+
+# target to preprocess a source file
+Learning/learning.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Learning/learning.cpp.i
+.PHONY : Learning/learning.cpp.i
+
+Learning/learning.s: Learning/learning.cpp.s
+
+.PHONY : Learning/learning.s
+
+# target to generate assembly for a file
+Learning/learning.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Learning/learning.cpp.s
+.PHONY : Learning/learning.cpp.s
+
+testGame/main.o: testGame/main.cpp.o
+
+.PHONY : testGame/main.o
+
+# target to build an object file
+testGame/main.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/testGame/main.cpp.o
+.PHONY : testGame/main.cpp.o
+
+testGame/main.i: testGame/main.cpp.i
+
+.PHONY : testGame/main.i
+
+# target to preprocess a source file
+testGame/main.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/testGame/main.cpp.i
+.PHONY : testGame/main.cpp.i
+
+testGame/main.s: testGame/main.cpp.s
+
+.PHONY : testGame/main.s
+
+# target to generate assembly for a file
+testGame/main.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/testGame/main.cpp.s
+.PHONY : testGame/main.cpp.s
 
 # Help Target
 help:
@@ -186,12 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
-	@echo "... BasicGui.o"
-	@echo "... BasicGui.i"
-	@echo "... BasicGui.s"
-	@echo "... learning.o"
-	@echo "... learning.i"
-	@echo "... learning.s"
+	@echo "... BishalCPP/bishal.o"
+	@echo "... BishalCPP/bishal.i"
+	@echo "... BishalCPP/bishal.s"
+	@echo "... GUIFun/BasicGui.o"
+	@echo "... GUIFun/BasicGui.i"
+	@echo "... GUIFun/BasicGui.s"
+	@echo "... Learning/learning.o"
+	@echo "... Learning/learning.i"
+	@echo "... Learning/learning.s"
+	@echo "... testGame/main.o"
+	@echo "... testGame/main.i"
+	@echo "... testGame/main.s"
 .PHONY : help
 
 

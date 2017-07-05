@@ -82,10 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/sdb1/Documents/Projects/BISHAL/cpp/BasicGui.cpp">
+		<Unit filename="/mnt/sdb1/Documents/Projects/BISHAL/cpp/BishalCPP/bishal.cpp">
 			<Option target="cpp"/>
 		</Unit>
-		<Unit filename="/mnt/sdb1/Documents/Projects/BISHAL/cpp/learning.cpp">
+		<Unit filename="/mnt/sdb1/Documents/Projects/BISHAL/cpp/BishalCPP/bishal.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/mnt/sdb1/Documents/Projects/BISHAL/cpp/GUIFun/BasicGui.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/mnt/sdb1/Documents/Projects/BISHAL/cpp/Learning/learning.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/mnt/sdb1/Documents/Projects/BISHAL/cpp/testGame/main.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/mnt/sdb1/Documents/Projects/BISHAL/cpp/testGame/main.h">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/mnt/sdb1/Documents/Projects/BISHAL/cpp/CMakeLists.txt">

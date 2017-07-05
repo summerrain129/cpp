@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/sdb1/Documents/Projects/BISHAL/cpp/BasicGui.cpp" "/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles/cpp.dir/BasicGui.cpp.o"
-  "/mnt/sdb1/Documents/Projects/BISHAL/cpp/learning.cpp" "/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles/cpp.dir/learning.cpp.o"
+  "/mnt/sdb1/Documents/Projects/BISHAL/cpp/BishalCPP/bishal.cpp" "/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o"
+  "/mnt/sdb1/Documents/Projects/BISHAL/cpp/GUIFun/BasicGui.cpp" "/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o"
+  "/mnt/sdb1/Documents/Projects/BISHAL/cpp/Learning/learning.cpp" "/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles/cpp.dir/Learning/learning.cpp.o"
+  "/mnt/sdb1/Documents/Projects/BISHAL/cpp/testGame/main.cpp" "/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles/cpp.dir/testGame/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

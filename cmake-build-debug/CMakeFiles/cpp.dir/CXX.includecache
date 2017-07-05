@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/mnt/sdb1/Documents/Projects/BISHAL/cpp/learning.cpp
+/mnt/sdb1/Documents/Projects/BISHAL/cpp/BishalCPP/bishal.cpp
 iostream
 -
+search.h
+-
+
+/mnt/sdb1/Documents/Projects/BISHAL/cpp/GUIFun/BasicGui.cpp
+
+/mnt/sdb1/Documents/Projects/BISHAL/cpp/Learning/learning.cpp
+iostream
+-
+
+/mnt/sdb1/Documents/Projects/BISHAL/cpp/testGame/main.cpp
+main.h
+/mnt/sdb1/Documents/Projects/BISHAL/cpp/testGame/main.h
+iostream
+-
+
+/mnt/sdb1/Documents/Projects/BISHAL/cpp/testGame/main.h
 

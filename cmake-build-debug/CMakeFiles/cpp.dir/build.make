@@ -57,67 +57,119 @@ include CMakeFiles/cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp.dir/flags.make
 
-CMakeFiles/cpp.dir/learning.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/learning.cpp.o: ../learning.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/learning.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/learning.cpp.o -c /mnt/sdb1/Documents/Projects/BISHAL/cpp/learning.cpp
+CMakeFiles/cpp.dir/Learning/learning.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/Learning/learning.cpp.o: ../Learning/learning.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/Learning/learning.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/Learning/learning.cpp.o -c /mnt/sdb1/Documents/Projects/BISHAL/cpp/Learning/learning.cpp
 
-CMakeFiles/cpp.dir/learning.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/learning.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/sdb1/Documents/Projects/BISHAL/cpp/learning.cpp > CMakeFiles/cpp.dir/learning.cpp.i
+CMakeFiles/cpp.dir/Learning/learning.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/Learning/learning.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/sdb1/Documents/Projects/BISHAL/cpp/Learning/learning.cpp > CMakeFiles/cpp.dir/Learning/learning.cpp.i
 
-CMakeFiles/cpp.dir/learning.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/learning.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/sdb1/Documents/Projects/BISHAL/cpp/learning.cpp -o CMakeFiles/cpp.dir/learning.cpp.s
+CMakeFiles/cpp.dir/Learning/learning.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/Learning/learning.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/sdb1/Documents/Projects/BISHAL/cpp/Learning/learning.cpp -o CMakeFiles/cpp.dir/Learning/learning.cpp.s
 
-CMakeFiles/cpp.dir/learning.cpp.o.requires:
+CMakeFiles/cpp.dir/Learning/learning.cpp.o.requires:
 
-.PHONY : CMakeFiles/cpp.dir/learning.cpp.o.requires
+.PHONY : CMakeFiles/cpp.dir/Learning/learning.cpp.o.requires
 
-CMakeFiles/cpp.dir/learning.cpp.o.provides: CMakeFiles/cpp.dir/learning.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/learning.cpp.o.provides.build
-.PHONY : CMakeFiles/cpp.dir/learning.cpp.o.provides
+CMakeFiles/cpp.dir/Learning/learning.cpp.o.provides: CMakeFiles/cpp.dir/Learning/learning.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Learning/learning.cpp.o.provides.build
+.PHONY : CMakeFiles/cpp.dir/Learning/learning.cpp.o.provides
 
-CMakeFiles/cpp.dir/learning.cpp.o.provides.build: CMakeFiles/cpp.dir/learning.cpp.o
+CMakeFiles/cpp.dir/Learning/learning.cpp.o.provides.build: CMakeFiles/cpp.dir/Learning/learning.cpp.o
 
 
-CMakeFiles/cpp.dir/BasicGui.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/BasicGui.cpp.o: ../BasicGui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp.dir/BasicGui.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/BasicGui.cpp.o -c /mnt/sdb1/Documents/Projects/BISHAL/cpp/BasicGui.cpp
+CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o: ../GUIFun/BasicGui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o -c /mnt/sdb1/Documents/Projects/BISHAL/cpp/GUIFun/BasicGui.cpp
 
-CMakeFiles/cpp.dir/BasicGui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/BasicGui.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/sdb1/Documents/Projects/BISHAL/cpp/BasicGui.cpp > CMakeFiles/cpp.dir/BasicGui.cpp.i
+CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/sdb1/Documents/Projects/BISHAL/cpp/GUIFun/BasicGui.cpp > CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.i
 
-CMakeFiles/cpp.dir/BasicGui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/BasicGui.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/sdb1/Documents/Projects/BISHAL/cpp/BasicGui.cpp -o CMakeFiles/cpp.dir/BasicGui.cpp.s
+CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/sdb1/Documents/Projects/BISHAL/cpp/GUIFun/BasicGui.cpp -o CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.s
 
-CMakeFiles/cpp.dir/BasicGui.cpp.o.requires:
+CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o.requires:
 
-.PHONY : CMakeFiles/cpp.dir/BasicGui.cpp.o.requires
+.PHONY : CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o.requires
 
-CMakeFiles/cpp.dir/BasicGui.cpp.o.provides: CMakeFiles/cpp.dir/BasicGui.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/BasicGui.cpp.o.provides.build
-.PHONY : CMakeFiles/cpp.dir/BasicGui.cpp.o.provides
+CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o.provides: CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o.provides.build
+.PHONY : CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o.provides
 
-CMakeFiles/cpp.dir/BasicGui.cpp.o.provides.build: CMakeFiles/cpp.dir/BasicGui.cpp.o
+CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o.provides.build: CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o
+
+
+CMakeFiles/cpp.dir/testGame/main.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/testGame/main.cpp.o: ../testGame/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp.dir/testGame/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/testGame/main.cpp.o -c /mnt/sdb1/Documents/Projects/BISHAL/cpp/testGame/main.cpp
+
+CMakeFiles/cpp.dir/testGame/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/testGame/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/sdb1/Documents/Projects/BISHAL/cpp/testGame/main.cpp > CMakeFiles/cpp.dir/testGame/main.cpp.i
+
+CMakeFiles/cpp.dir/testGame/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/testGame/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/sdb1/Documents/Projects/BISHAL/cpp/testGame/main.cpp -o CMakeFiles/cpp.dir/testGame/main.cpp.s
+
+CMakeFiles/cpp.dir/testGame/main.cpp.o.requires:
+
+.PHONY : CMakeFiles/cpp.dir/testGame/main.cpp.o.requires
+
+CMakeFiles/cpp.dir/testGame/main.cpp.o.provides: CMakeFiles/cpp.dir/testGame/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/testGame/main.cpp.o.provides.build
+.PHONY : CMakeFiles/cpp.dir/testGame/main.cpp.o.provides
+
+CMakeFiles/cpp.dir/testGame/main.cpp.o.provides.build: CMakeFiles/cpp.dir/testGame/main.cpp.o
+
+
+CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o: ../BishalCPP/bishal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o -c /mnt/sdb1/Documents/Projects/BISHAL/cpp/BishalCPP/bishal.cpp
+
+CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/sdb1/Documents/Projects/BISHAL/cpp/BishalCPP/bishal.cpp > CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.i
+
+CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/sdb1/Documents/Projects/BISHAL/cpp/BishalCPP/bishal.cpp -o CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.s
+
+CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o.requires:
+
+.PHONY : CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o.requires
+
+CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o.provides: CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o.provides.build
+.PHONY : CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o.provides
+
+CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o.provides.build: CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o
 
 
 # Object files for target cpp
 cpp_OBJECTS = \
-"CMakeFiles/cpp.dir/learning.cpp.o" \
-"CMakeFiles/cpp.dir/BasicGui.cpp.o"
+"CMakeFiles/cpp.dir/Learning/learning.cpp.o" \
+"CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o" \
+"CMakeFiles/cpp.dir/testGame/main.cpp.o" \
+"CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
 
-cpp: CMakeFiles/cpp.dir/learning.cpp.o
-cpp: CMakeFiles/cpp.dir/BasicGui.cpp.o
+cpp: CMakeFiles/cpp.dir/Learning/learning.cpp.o
+cpp: CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o
+cpp: CMakeFiles/cpp.dir/testGame/main.cpp.o
+cpp: CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o
 cpp: CMakeFiles/cpp.dir/build.make
 cpp: CMakeFiles/cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/sdb1/Documents/Projects/BISHAL/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,8 +177,10 @@ CMakeFiles/cpp.dir/build: cpp
 
 .PHONY : CMakeFiles/cpp.dir/build
 
-CMakeFiles/cpp.dir/requires: CMakeFiles/cpp.dir/learning.cpp.o.requires
-CMakeFiles/cpp.dir/requires: CMakeFiles/cpp.dir/BasicGui.cpp.o.requires
+CMakeFiles/cpp.dir/requires: CMakeFiles/cpp.dir/Learning/learning.cpp.o.requires
+CMakeFiles/cpp.dir/requires: CMakeFiles/cpp.dir/GUIFun/BasicGui.cpp.o.requires
+CMakeFiles/cpp.dir/requires: CMakeFiles/cpp.dir/testGame/main.cpp.o.requires
+CMakeFiles/cpp.dir/requires: CMakeFiles/cpp.dir/BishalCPP/bishal.cpp.o.requires
 
 .PHONY : CMakeFiles/cpp.dir/requires
 
